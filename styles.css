@@ -1,0 +1,95 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-image: url('https://images.unsplash.com/photo-1676324998267-9513dfc74420?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDQ0fDZzTVZqVExTa2VRfHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* element selector */
+h1 {}
+
+#Heading {
+    color: rgb(135, 15, 240);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 24px;
+    text-align: center;
+
+}
+
+/* id selector */
+
+.para {
+    color: rgb(218, 97, 11);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* class selector */
+/* simple selector */
+
+div p {
+    color: rgb(16, 16, 243);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* descendent selector */
+
+div>p {
+    color: rgb(16, 16, 243);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+p+div {
+    background-color: burlywood;
+}
+
+/* adjuscent selector */
+
+p~div {}
+
+/* sibling selector */
+/* combination selector */
+
+
+/* psudo class selector */
+input:hover {
+    background-color: rgb(236, 224, 247);
+    color: rgb(44, 100, 100);
+}
+
+input:focus {
+    background-color: rgb(59, 7, 107);
+    color: rgb(25, 233, 164);
+}
+
+button {
+    background-color: rgb(174, 92, 250);
+    border-radius: 5em;
+    border-style: solid;
+    border-width: 1px;
+}
+
+button:hover {
+    background-color: rgb(164, 235, 93);
+
+}
+
+button:focus {
+    background-color: rgb(84, 247, 192);
+}
+
+/* /* pseudo elements */
+
+/* attribute selector  */
+p::first-letter {
+    font-size: larger;
+    color: rgb(114, 31, 192);
+}
+
+p[target] {
+    background-color: rgb(224, 18, 128);
+}
+
+
